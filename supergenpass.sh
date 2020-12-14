@@ -30,4 +30,11 @@ do
 		break
 	fi
 done
-echo ${hash:0:$length}
+
+# Return password to clipboard
+echo ${hash:0:$length} | pbcopy
+
+sleep 3
+
+# Clear clipboard
+pbcopy < /dev/null
