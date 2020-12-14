@@ -9,3 +9,9 @@ The `<domain>` parameter is also optional, but it does not make much sense to om
 `supergenpass.sh` will ask for your master password interactively, and it will not be displayed on your terminal.
 Since it is a 24-line shell script, it is quite straightforward to just hardcode it in the script itself,
 if you don't mind the security compromise.
+
+### Update of this fork
+
+(works only on macOS with pbcopy)
+- Copy password on clipboard
+- Clear out clipboard shortly after password creation 
